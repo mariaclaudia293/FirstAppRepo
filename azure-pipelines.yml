@@ -16,3 +16,13 @@ steps:
     npm install
     npm run build
   displayName: 'npm install and build'
+parameters:
+  param: default
+
+steps:
+- task: Bash@3
+  displayName: bash expansion
+  inputs:
+    targetType: 'inline'
+    script: |
+      ${{ format('echo {0}', parameters.param) }}
