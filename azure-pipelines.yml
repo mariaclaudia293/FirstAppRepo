@@ -19,5 +19,5 @@ steps:
 
 - task: npm@2
   inputs:
-    command: npm start [-- <args>]
+    command: npm start
 
