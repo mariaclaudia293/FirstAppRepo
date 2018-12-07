@@ -3,16 +3,13 @@
   "version": "0.0.0",
   "description": "NodejsWebTestApp",
   "scripts": {
-    "start": "node server"
+    "start": "npm start",
+        "test": "hello.js"
   },
   "engines": {
     "node": "~10.x"
   },
   "author": {
     "name": ""
-  },
-    "scripts": {
-        "start": "npm start",
-        "test": "hello.js"
-    }
+  }
 }
