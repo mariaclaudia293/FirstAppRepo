@@ -1,9 +1,9 @@
 {
-  "name": "test",
+  "name": "build",
   "version": "0.0.0",
   "description": "NodejsWebTestApp",
   "scripts": {
-    "start": "node server"
+    "start": "node hello.js"
   },
   "engines": {
     "node": "~10.x"
@@ -11,11 +11,4 @@
   "author": {
     "name": ""
   }
-{
-  "name": "build",
-  "version": "1.0.0",
-  "scripts": {
-    "start": "node hello.js"
-  }
-}
 }
