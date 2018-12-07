@@ -11,4 +11,7 @@
   "author": {
     "name": ""
   }
+  "scripts": {
+    "start": "node hello.js",
+}
 }
