@@ -17,7 +17,4 @@ steps:
     command: install
   displayName: 'npm install and build'
 
-- task: npm@2
-  inputs:
-    command: npm start
 
