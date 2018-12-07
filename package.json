@@ -11,7 +11,11 @@
   "author": {
     "name": ""
   }
+{
+  "name": "build",
+  "version": "1.0.0",
   "scripts": {
-    "start": "node hello.js",
+    "start": "node hello.js"
+  }
 }
 }
